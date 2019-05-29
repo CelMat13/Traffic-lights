@@ -18,7 +18,7 @@ void loop()
   Serial.print(zmierzOdleglosc());
   Serial.println(" cm");
 
-  zakresRED (0, 25);//włącz diodę, jeśli miedzy 10cm a 25 cos jest
+  zakresRED (0, 25);
   zakresYe (25, 40);
     zakresG (41, 80);
   
